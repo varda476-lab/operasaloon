@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opera Prime Salon | Luxury Hair, Skin & Makeup Experience in Raipur</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Opera Prime Salon Raipur: Raipur's best beauty salon & bridal makeup expert since 1984. 4.7★ (1900+ reviews). Premium Hair Spa, coloring, skin treatments, and makeup.">
+  <meta name="keywords" content="Best Salon in Raipur, Bridal Makeup in Raipur, Hair Spa in Raipur, Luxury Salon in Raipur, Hair Color Experts in Raipur, Opera Prime Salon Moti Bagh, beauty parlour Raipur">
+  <meta name="author" content="Opera Prime Salon">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://operaprimesalon.in/">
+  <meta property="og:title" content="Opera Prime Salon | Luxury Hair, Skin & Makeup Experience in Raipur">
+  <meta property="og:description" content="Raipur's top luxury beauty parlour since 1984. Book premium hair cuts, spa, styling, facials & bridal makeup online.">
+  <meta property="og:image" content="images/hero_bg.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://operaprimesalon.in/">
+  <meta property="twitter:title" content="Opera Prime Salon | Luxury Hair, Skin & Makeup Experience in Raipur">
+  <meta property="twitter:description" content="Raipur's top luxury beauty parlour since 1984. Book premium hair cuts, spa, styling, facials & bridal makeup online.">
+  <meta property="twitter:image" content="images/hero_bg.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Styling -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Local Business Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Opera Prime Salon",
+    "image": "images/hero_bg.png",
+    "@id": "https://operaprimesalon.in/#salon",
+    "url": "https://operaprimesalon.in",
+    "telephone": "+919827881280",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Raj Bhawan rd Chowk, Moti Bagh, Civil Lines",
+      "addressLocality": "Raipur",
+      "addressRegion": "Chhattisgarh",
+      "postalCode": "492001",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 21.2464303,
+      "longitude": 81.6393164
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "1922"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Floating Custom Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Background Animated Gold Particles Canvas -->
+  <canvas id="particlesCanvas"></canvas>
+
+  <!-- Top Glassmorphic Navigation -->
+  <header class="navbar-header">
+    <div class="navbar-container">
+      <a href="#" class="logo-brand">
+        <span class="logo-title">OPERA PRIME</span>
+        <span class="logo-subtitle">S A L O N</span>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="mobile-toggle" aria-label="Toggle menu" id="mobileToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#bridal" class="nav-link">Bridal</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#instagram" class="nav-link">Instagram</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <div class="nav-buttons">
+          <button class="btn btn-primary" onclick="openBookingModal()">Book Appointment</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 1. Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container scroll-reveal">
+      <span class="hero-tagline">ESTABLISHED IN 1984</span>
+      <h1 class="hero-title">Luxury Hair, Skin & <br><span class="text-gold">Makeup Experience</span> in Raipur</h1>
+      <p class="hero-desc">Indulge in premium beauty rituals designed by experts. Celebrating over 40 years of luxury styling, transformations, and customer smiles.</p>
+      
+      <div class="hero-ctas">
+        <button class="btn btn-primary btn-lg" onclick="openBookingModal()">
+          <i class="fa-regular fa-calendar-check"></i> Book Appointment
+        </button>
+        <a href="https://wa.me/919827881280?text=Hi%20Opera%20Prime%20Salon,%20I'd%20like%20to%20book%20an%20appointment." target="_blank" class="btn btn-outline btn-lg">
+          <i class="fab fa-whatsapp text-whatsapp"></i> Book on WhatsApp
+        </a>
+      </div>
+
+      <!-- Animated Counters Overlay in Hero -->
+      <div class="hero-counters">
+        <div class="counter-item">
+          <div class="counter-icon"><i class="fa-solid fa-star text-gold"></i></div>
+          <div class="counter-val" data-target="4.7">0</div>
+          <div class="counter-lbl">Google Rating</div>
+        </div>
+        <div class="counter-item">
+          <div class="counter-icon"><i class="fa-solid fa-users"></i></div>
+          <div class="counter-val" data-target="1900">0</div>
+          <div class="counter-lbl">Google Reviews</div>
+        </div>
+        <div class="counter-item">
+          <div class="counter-icon"><i class="fa-solid fa-trophy"></i></div>
+          <div class="counter-val" data-target="1984">0</div>
+          <div class="counter-lbl">Established Since</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. About Us / Legacy Section -->
+  <section id="about" class="about-section padding-y">
+    <div class="container grid-2">
+      <div class="about-image-container scroll-reveal">
+        <div class="gold-box-border"></div>
+        <img src="images/about_salon.png" alt="Opera Prime Salon Raipur Interior" class="about-img" loading="lazy">
+        <div class="about-experience-badge">
+          <span class="badge-num">40+</span>
+          <span class="badge-text">Years of Excellence</span>
+        </div>
+      </div>
+      <div class="about-text-content scroll-reveal">
+        <span class="section-subtitle text-gold">OUR LEGACY</span>
+        <h2 class="section-title">Raipur's Premier Destination For Luxury Care</h2>
+        <p class="about-paragraph">For over four decades, Opera Prime Salon has stood as a beacon of sophistication and high fashion in Civil Lines, Raipur. Founded in 1984, our legacy is built on a foundation of professional mastery, certified artists, and an unwavering commitment to client satisfaction.</p>
+        <p class="about-paragraph">We utilize only the world's most elite beauty brands—ensuring your hair, skin, and makeup receive the highest standards of care. Whether you are stepping in for a signature haircut, a therapeutic hair spa, or Raipur's most trusted bridal makeover, we promise an experience that rejuvenates your senses and elevates your beauty.</p>
+        
+        <!-- Legacy Features Grid -->
+        <div class="legacy-features-grid">
+          <div class="feature-card-compact">
+            <i class="fa-solid fa-medal text-gold"></i>
+            <span>Experienced Stylists</span>
+          </div>
+          <div class="feature-card-compact">
+            <i class="fa-solid fa-spa text-gold"></i>
+            <span>Premium Products Only</span>
+          </div>
+          <div class="feature-card-compact">
+            <i class="fa-solid fa-shield-heart text-gold"></i>
+            <span>Hygienic Environment</span>
+          </div>
+          <div class="feature-card-compact">
+            <i class="fa-solid fa-thumbs-up text-gold"></i>
+            <span>1900+ Happy Guests</span>
+          </div>
+        </div>
+
+        <!-- Brand Logos Ribbon -->
+        <div class="brand-ribbon">
+          <div class="brand-ribbon-title">PREMIUM PRODUCTS WE TRUST:</div>
+          <div class="brand-logos-container">
+            <span class="brand-logo-text">L'ORÉAL</span>
+            <span class="brand-logo-text">KÉRASTASE</span>
+            <span class="brand-logo-text">MAC</span>
+            <span class="brand-logo-text">KRYOLAN</span>
+            <span class="brand-logo-text">ESTĒE LAUDER</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Bridal Packages Section (High Ticket) -->
+  <section id="bridal" class="bridal-section padding-y">
+    <div class="container text-center scroll-reveal">
+      <span class="section-subtitle text-gold">GLAMOUR & LUXURY</span>
+      <h2 class="section-title">Exclusive Bridal & Groom Packages</h2>
+      <p class="section-desc max-w-600">Walk down the aisle with absolute grace. Our high-definition makeup, skin rituals, and professional styling will make your special day unforgettable.</p>
+    </div>
+
+    <div class="container grid-4 bridal-grid">
+      
+      <!-- Package 1 -->
+      <div class="bridal-card glass-card scroll-reveal">
+        <div class="bridal-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=600" alt="Bridal Makeup Raipur" loading="lazy">
+          <div class="bridal-tag">Most Popular</div>
+        </div>
+        <div class="bridal-info">
+          <h3>Signature Bridal Makeup</h3>
+          <p class="bridal-description">Flawless HD/Airbrush makeup tailored by senior stylists, complete with draping and premium hairstyling.</p>
+          <div class="bridal-price-row">
+            <span class="bridal-price">₹14,999<span class="starting-from"> onwards</span></span>
+          </div>
+          <button class="btn btn-outline btn-block" onclick="bookSpecificService('Signature Bridal Makeup')">Enquire & Book</button>
+        </div>
+      </div>
+
+      <!-- Package 2 -->
+      <div class="bridal-card glass-card scroll-reveal">
+        <div class="bridal-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80&w=600" alt="Pre Bridal Care" loading="lazy">
+        </div>
+        <div class="bridal-info">
+          <h3>Pre-Bridal Luxury Package</h3>
+          <p class="bridal-description">A curated 3-step ritual: skin brightening facial, body polishing, luxury hair spa, manicure & pedicure sessions.</p>
+          <div class="bridal-price-row">
+            <span class="bridal-price">₹9,999<span class="starting-from"> onwards</span></span>
+          </div>
+          <button class="btn btn-outline btn-block" onclick="bookSpecificService('Pre-Bridal Luxury Package')">Enquire & Book</button>
+        </div>
+      </div>
+
+      <!-- Package 3 -->
+      <div class="bridal-card glass-card scroll-reveal">
+        <div class="bridal-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=600" alt="Groom Package" loading="lazy">
+        </div>
+        <div class="bridal-info">
+          <h3>Luxury Groom Package</h3>
+          <p class="bridal-description">Elite grooming for grooms: signature haircut, facial detox, skin brightening cleanup, styling, and beard styling.</p>
+          <div class="bridal-price-row">
+            <span class="bridal-price">₹5,999<span class="starting-from"> onwards</span></span>
+          </div>
+          <button class="btn btn-outline btn-block" onclick="bookSpecificService('Luxury Groom Package')">Enquire & Book</button>
+        </div>
+      </div>
+
+      <!-- Package 4 -->
+      <div class="bridal-card glass-card scroll-reveal">
+        <div class="bridal-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600" alt="Engagement Makeup" loading="lazy">
+        </div>
+        <div class="bridal-info">
+          <h3>Engagement & Reception</h3>
+          <p class="bridal-description">Elegant look tailored to match evening lights, including soft glow makeup, hair setting, and drape support.</p>
+          <div class="bridal-price-row">
+            <span class="bridal-price">₹7,999<span class="starting-from"> onwards</span></span>
+          </div>
+          <button class="btn btn-outline btn-block" onclick="bookSpecificService('Engagement & Reception Makeup')">Enquire & Book</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. Services Section -->
+  <section id="services" class="services-section padding-y">
+    <div class="container text-center scroll-reveal">
+      <span class="section-subtitle text-gold">EXPLORE MENU</span>
+      <h2 class="section-title">Our Premium Services</h2>
+      <p class="section-desc max-w-600">Search prices or browse service categories. Every service is delivered with high-precision detailing and hygiene.</p>
+      
+      <!-- Interactive Service Search -->
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" id="serviceSearch" placeholder="Search pricing or services (e.g. Keratin, Facials, Hair Cut)...">
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="tab-btn active" data-filter="all">All Services</button>
+        <button class="tab-btn" data-filter="hair">Hair Care</button>
+        <button class="tab-btn" data-filter="skin">Skin & Facial</button>
+        <button class="tab-btn" data-filter="makeup">Makeup Artistry</button>
+        <button class="tab-btn" data-filter="nails">Hands & Feet</button>
+      </div>
+    </div>
+
+    <!-- Services Cards Grid -->
+    <div class="container grid-3 services-grid scroll-reveal">
+      
+      <!-- Hair 1 -->
+      <div class="service-card glass-card" data-category="hair">
+        <div class="service-img-container">
+          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=600" alt="Hair Cut" loading="lazy">
+        </div>
+        <div class="service-content">
+          <div class="service-header">
+            <h3>Signature Hair Cut</h3>
+            <span class="price-badge">₹499+</span>
+          </div>
+          <p class="service-text">Custom haircutting & styling from senior experts, matches your facial contouring.</p>
+          <button class="btn btn-sm btn-outline" onclick="bookSpecificService('Signature Hair Cut')">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Hair 2 -->
+      <div class="service-card glass-card" data-category="hair">
+        <div class="service-img-container">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=600" alt="Hair Spa" loading="lazy">
+        </div>
+        <div class="service-content">
+          <div class="service-header">
+            <h3>Restorative Hair Spa</h3>
+            <span class="price-badge">₹999+</span>
+          </div>
+          <p class="service-text">Deep conditioning mask with steam treatment, perfect for dry or damaged hair structure.</p>
+          <button class="btn btn-sm btn-outline" onclick="bookSpecificService('Restorative Hair Spa')">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Hair 3 -->
+      <div class="service-card glass-card" data-category="hair">
+        <div class="service-img-container">
+          <img src="https://images.unsplash.com/photo-1605980776566-0486c3ac7617?auto=format&fit=crop&q=80&w=600" alt="Hair Coloring" loading="lazy">
+        </div>
+        <div class="service-content">
+          <div class="service-header">
+            <h3>Premium Hair Coloring</h3>
+            <span class="price-badge">₹2499+</span>
+          </div>
+          <p class="service-text">Global color, root touch-up or designer balayage using high-end L'Oréal colors.</p>
+          <button class="btn btn-sm btn-outline" onclick="bookSpecificService('Premium Hair Coloring')">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Hair 4 -->
+      <div class="service-card glass-card" data-category="hair">
+        <div class="service-img-container">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600" alt="Keratin Treatment" loading="lazy">
+        </div>
+        <div class="service-content">
+          <div class="service-header">
+            <h3>Pro-Keratin Infusion</h3>
+            <span class="price-badge">₹3499+</span>
+          </div>
+          <p class="service-text">Advanced smoothing protein treatment to remove frizz and deliver glossy hair.</p>
+          <button class="btn btn-sm btn-outline" onclick="bookSpecificService('Pro-Keratin Infusion')">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Skin 1 -->
+      <div class="service-card glass-card" data-category="skin">
+        <div class="service-img-container">
+          <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=600" alt="Facial" loading="lazy">
+        </div>
+        <div class="service-content">
+          <div class="service-header">
+            <h3>Luxury Gold Glow Facial</h3>
+            <span class="price-badge">₹799+</span>
+          </div>
+          <p class="service-text">Hydrating skin nourishment and cell activation with rich golden extracts.</p>
+          <button class="btn btn-sm btn-outline" onclick="bookSpecificService('Luxury Gold Glow Facial')">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Skin 2 -->
+      <div class="service-card glass-card" data-category="skin">
+        <div class="service-img-container">
+          <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=600" alt="Skin Cleanup" loading="lazy">
+        </div>
+        <div class="service-content">
+          <div class="service-header">
+            <h3>Detox Skin Cleanup</h3>
+            <span class="price-badge">₹599+</span>
+          </div>
+          <p class="service-text">Deep pore vacuuming, blackhead removal and refreshing mask application.</p>
+          <button class="btn btn-sm btn-outline" onclick="bookSpecificService('Detox Skin Cleanup')">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Makeup 1 -->
+      <div class="service-card glass-card" data-category="makeup">
+        <div class="service-img-container">
+          <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=600" alt="Party Makeup" loading="lazy">
+        </div>
+        <div class="service-content">
+          <div class="service-header">
+            <h3>Glam Party Makeup</h3>
+            <span class="price-badge">₹3999+</span>
+          </div>
+          <p class="service-text">Flawless base, contouring, dramatic eyes and setting for events and parties.</p>
+          <button class="btn btn-sm btn-outline" onclick="bookSpecificService('Glam Party Makeup')">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Nails 1 -->
+      <div class="service-card glass-card" data-category="nails">
+        <div class="service-img-container">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600" alt="Manicure" loading="lazy">
+        </div>
+        <div class="service-content">
+          <div class="service-header">
+            <h3>SpaSational Manicure</h3>
+            <span class="price-badge">₹999+</span>
+          </div>
+          <p class="service-text">Hand scrub, shaping, cuticle treatment, massage & premium gel polish finish.</p>
+          <button class="btn btn-sm btn-outline" onclick="bookSpecificService('SpaSational Manicure')">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Nails 2 -->
+      <div class="service-card glass-card" data-category="nails">
+        <div class="service-img-container">
+          <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=600" alt="Pedicure" loading="lazy">
+        </div>
+        <div class="service-content">
+          <div class="service-header">
+            <h3>Paraffin Pedicure</h3>
+            <span class="price-badge">₹1199+</span>
+          </div>
+          <p class="service-text">Soothing feet scrub, dead skin scrubbing, warm paraffin wrap & massage.</p>
+          <button class="btn btn-sm btn-outline" onclick="bookSpecificService('Paraffin Pedicure')">Book Now</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Quick Pricing Lookup Table -->
+    <div class="container pricing-table-container scroll-reveal">
+      <div class="pricing-table-header">
+        <h3>Interactive Rate Card</h3>
+        <p>Quick lookup of popular services & packages</p>
+      </div>
+      <div class="pricing-search-wrapper">
+        <table class="pricing-table" id="pricingTable">
+          <thead>
+            <tr>
+              <th>Service Details</th>
+              <th>Category</th>
+              <th>Starting Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="pricing-row">
+              <td class="pricing-name">Signature Hair Cut (Men / Women)</td>
+              <td>Hair Care</td>
+              <td class="pricing-cost">₹499</td>
+            </tr>
+            <tr class="pricing-row">
+              <td class="pricing-name">L'Oreal Professional Hair Spa</td>
+              <td>Hair Care</td>
+              <td class="pricing-cost">₹999</td>
+            </tr>
+            <tr class="pricing-row">
+              <td class="pricing-name">Global Hair Coloring ( Ammonia-Free )</td>
+              <td>Hair Care</td>
+              <td class="pricing-cost">₹2,499</td>
+            </tr>
+            <tr class="pricing-row">
+              <td class="pricing-name">Pro-Keratin Infusion Therapy</td>
+              <td>Hair Care</td>
+              <td class="pricing-cost">₹3,499</td>
+            </tr>
+            <tr class="pricing-row">
+              <td class="pricing-name">O3+ Bridal Glow Facial</td>
+              <td>Skin & Facial</td>
+              <td class="pricing-cost">₹1,799</td>
+            </tr>
+            <tr class="pricing-row">
+              <td class="pricing-name">Luxury Gold Radiance Facial</td>
+              <td>Skin & Facial</td>
+              <td class="pricing-cost">₹799</td>
+            </tr>
+            <tr class="pricing-row">
+              <td class="pricing-name">Detox Clean-up Treatment</td>
+              <td>Skin & Facial</td>
+              <td class="pricing-cost">₹599</td>
+            </tr>
+            <tr class="pricing-row">
+              <td class="pricing-name">High Definition (HD) Party Makeup</td>
+              <td>Makeup Artistry</td>
+              <td class="pricing-cost">₹3,999</td>
+            </tr>
+            <tr class="pricing-row">
+              <td class="pricing-name">Luxury Spa Manicure & Pedicure Combo</td>
+              <td>Hands & Feet</td>
+              <td class="pricing-cost">₹1,899</td>
+            </tr>
+            <tr class="pricing-row">
+              <td class="pricing-name">Signature Bridal HD Makeup Package</td>
+              <td>Bridal</td>
+              <td class="pricing-cost">₹14,999</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Before & After Interactive Slider -->
+  <section class="before-after-section padding-y">
+    <div class="container grid-2">
+      <div class="slider-text scroll-reveal">
+        <span class="section-subtitle text-gold">REAL TRANSFORMATION</span>
+        <h2 class="section-title">See The Magic: Before & After</h2>
+        <p class="about-paragraph">Drag the slider horizontally to view the seamless transformation created by our experts. We combine proper technique and premium cosmetic blends to elevate your confidence.</p>
+        <div class="transformation-details">
+          <div class="t-badge"><i class="fa-solid fa-circle-check text-gold"></i> Premium Balayage & Cut</div>
+          <div class="t-badge"><i class="fa-solid fa-circle-check text-gold"></i> Deep Hydration Restructure</div>
+        </div>
+        <button class="btn btn-primary" onclick="openBookingModal()">Transform Your Hair</button>
+      </div>
+
+      <!-- Drag Slider Container -->
+      <div class="before-after-container scroll-reveal" id="beforeAfterContainer">
+        <!-- Before image (underneath) -->
+        <div class="ba-image before-img">
+          <img src="images/before_hair.png" alt="Before Hair Transformation">
+          <span class="label-badge label-before">BEFORE</span>
+        </div>
+        <!-- After image (overlay with clip path) -->
+        <div class="ba-image after-img" id="afterImgContainer">
+          <img src="images/after_hair.png" alt="After Hair Transformation">
+          <span class="label-badge label-after">AFTER</span>
+        </div>
+        <!-- Handlebar -->
+        <div class="ba-slider-handle" id="sliderHandle">
+          <div class="handle-line"></div>
+          <div class="handle-button">
+            <i class="fa-solid fa-arrows-left-right"></i>
+          </div>
+          <div class="handle-line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Instagram Feed Section (Aesthetic Highlights) -->
+  <section id="instagram" class="instagram-section padding-y">
+    <div class="container text-center scroll-reveal">
+      <span class="section-subtitle text-gold">INSTAGRAM FEEDS</span>
+      <h2 class="section-title">Follow Us @OperaPrimeSalon</h2>
+      <p class="section-desc max-w-600">Tune into our latest trends on social. Explore live reels, high-definition transformations, and bridal journals in Raipur.</p>
+      
+      <!-- Instagram Feed Tabs -->
+      <div class="insta-tabs">
+        <button class="insta-tab-btn active" data-tab="reels">Latest Reels</button>
+        <button class="insta-tab-btn" data-tab="transform">Latest Transformations</button>
+        <button class="insta-tab-btn" data-tab="bridal-feed">Bridal Portfolio</button>
+      </div>
+    </div>
+
+    <!-- Instagram Simulated Grid -->
+    <div class="container insta-feed-grid scroll-reveal" id="instaGrid">
+      <!-- Grid items are dynamically populated or statically styled for premium mockup layout -->
+      
+      <!-- Reels Tab Content -->
+      <div class="insta-tab-content active" id="tab-reels">
+        <div class="grid-4">
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&q=80&w=600" alt="Reel Hair Gloss" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <i class="fa-regular fa-circle-play play-icon"></i>
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 1,204 Likes</span>
+            </div>
+          </div>
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=600" alt="Reel Bridal Makeup" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <i class="fa-regular fa-circle-play play-icon"></i>
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 856 Likes</span>
+            </div>
+          </div>
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=600" alt="Reel Skin Facial" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <i class="fa-regular fa-circle-play play-icon"></i>
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 1.5k Likes</span>
+            </div>
+          </div>
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=600" alt="Reel Groom Makeover" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <i class="fa-regular fa-circle-play play-icon"></i>
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 640 Likes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Transformations Tab Content -->
+      <div class="insta-tab-content" id="tab-transform">
+        <div class="grid-4">
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1605980776566-0486c3ac7617?auto=format&fit=crop&q=80&w=600" alt="Transformation Hair Cut" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 940 Likes</span>
+            </div>
+          </div>
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=600" alt="Transformation Skin facial" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 720 Likes</span>
+            </div>
+          </div>
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=600" alt="Transformation Hair Balayage" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 1.1k Likes</span>
+            </div>
+          </div>
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=600" alt="Transformation Keratin Smoothening" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 580 Likes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bridal Portfolio Tab Content -->
+      <div class="insta-tab-content" id="tab-bridal-feed">
+        <div class="grid-4">
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=600" alt="Bridal Look Gold" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 2.4k Likes</span>
+            </div>
+          </div>
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=600" alt="Bridal Look Pastel" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 1.8k Likes</span>
+            </div>
+          </div>
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=600" alt="Bridal Look Royal Red" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 3.1k Likes</span>
+            </div>
+          </div>
+          <div class="insta-item glass-card">
+            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&q=80&w=600" alt="Bridal Look Engagement" class="insta-img" loading="lazy">
+            <div class="insta-hover">
+              <span class="views-count"><i class="fa-regular fa-heart"></i> 1.2k Likes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. Lazy Loaded 24 Portfolio Gallery -->
+  <section id="gallery" class="gallery-section padding-y">
+    <div class="container text-center scroll-reveal">
+      <span class="section-subtitle text-gold">WORK GALLERY</span>
+      <h2 class="section-title">Signature Work Gallery</h2>
+      <p class="section-desc max-w-600">Browse actual styling results, including 8 Hair Transformations, 8 Bridal Looks, and 8 Skin Treatments. Scroll down to load all images.</p>
+      
+      <!-- Gallery Category Buttons -->
+      <div class="gallery-tabs">
+        <button class="gallery-tab-btn active" data-gallery-tab="all">Show All</button>
+        <button class="gallery-tab-btn" data-gallery-tab="hair">Hair (8)</button>
+        <button class="gallery-tab-btn" data-gallery-tab="bridal">Bridal (8)</button>
+        <button class="gallery-tab-btn" data-gallery-tab="skin">Skin (8)</button>
+      </div>
+    </div>
+
+    <!-- 24-Image Grid -->
+    <div class="container gallery-grid scroll-reveal" id="galleryGrid">
+      <!-- Hair (8 images) -->
+      <div class="gallery-card-item glass-card" data-gallery-cat="hair">
+        <img data-src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Luxury Hair Color" class="lazy-load">
+        <div class="gallery-overlay"><span>Golden Balayage</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="hair">
+        <img data-src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Chic Bob Cut" class="lazy-load">
+        <div class="gallery-overlay"><span>Precision Bob Cut</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="hair">
+        <img data-src="https://images.unsplash.com/photo-1605980776566-0486c3ac7617?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Keratin Gloss" class="lazy-load">
+        <div class="gallery-overlay"><span>Keratin Smoothness</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="hair">
+        <img data-src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Feather Cut Styling" class="lazy-load">
+        <div class="gallery-overlay"><span>Signature Feather Cut</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="hair">
+        <img data-src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Copper Balayage" class="lazy-load">
+        <div class="gallery-overlay"><span>Copper Balayage</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="hair">
+        <img data-src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Soft Curls Styling" class="lazy-load">
+        <div class="gallery-overlay"><span>Hollywood Waves</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="hair">
+        <img data-src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Deep Moisture Mask" class="lazy-load">
+        <div class="gallery-overlay"><span>Therapeutic Spa Treatment</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="hair">
+        <img data-src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Blowdry Styling" class="lazy-load">
+        <div class="gallery-overlay"><span>Bouncy Volume Blowdry</span></div>
+      </div>
+
+      <!-- Bridal (8 images) -->
+      <div class="gallery-card-item glass-card" data-gallery-cat="bridal">
+        <img data-src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Traditional Red Bride" class="lazy-load">
+        <div class="gallery-overlay"><span>Royal Red HD Bridal</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="bridal">
+        <img data-src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Contemporary Bride" class="lazy-load">
+        <div class="gallery-overlay"><span>Pastel Engagement Glam</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="bridal">
+        <img data-src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Stunning Eye Makeup" class="lazy-load">
+        <div class="gallery-overlay"><span>Intense Cut-Crease Eyes</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="bridal">
+        <img data-src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Dewy Reception Look" class="lazy-load">
+        <div class="gallery-overlay"><span>Dewy Glass Skin Reception</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="bridal">
+        <img data-src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Royal Haldi Look" class="lazy-load">
+        <div class="gallery-overlay"><span>Floral Haldi Look</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="bridal">
+        <img data-src="https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Traditional Hair Braid" class="lazy-load">
+        <div class="gallery-overlay"><span>Traditional Jasmine Braid</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="bridal">
+        <img data-src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Airbrush Finish Makeup" class="lazy-load">
+        <div class="gallery-overlay"><span>Seamless Airbrush Finish</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="bridal">
+        <img data-src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Draping Masterclass" class="lazy-load">
+        <div class="gallery-overlay"><span>Royal Dupatta Draping</span></div>
+      </div>
+
+      <!-- Skin (8 images) -->
+      <div class="gallery-card-item glass-card" data-gallery-cat="skin">
+        <img data-src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Clay Mask Treatment" class="lazy-load">
+        <div class="gallery-overlay"><span>Charcoal Charcoal Treatment</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="skin">
+        <img data-src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Gold Extract Massage" class="lazy-load">
+        <div class="gallery-overlay"><span>24k Gold Extract Facial</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="skin">
+        <img data-src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Hydrating Mask" class="lazy-load">
+        <div class="gallery-overlay"><span>Aloe Skin Calming Spa</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="skin">
+        <img data-src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="LED Skin Therapy" class="lazy-load">
+        <div class="gallery-overlay"><span>LED Skin Phototherapy</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="skin">
+        <img data-src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Ultrasonic Skin Peel" class="lazy-load">
+        <div class="gallery-overlay"><span>Ultrasonic Deep Peel</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="skin">
+        <img data-src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Acne Control Facial" class="lazy-load">
+        <div class="gallery-overlay"><span>O3+ Acne Clarifying</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="skin">
+        <img data-src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Skin Polishing Treatment" class="lazy-load">
+        <div class="gallery-overlay"><span>Microdermabrasion Glow</span></div>
+      </div>
+      <div class="gallery-card-item glass-card" data-gallery-cat="skin">
+        <img data-src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=600" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 300 300'%2F%3E" alt="Aroma Massage Treatment" class="lazy-load">
+        <div class="gallery-overlay"><span>Lavender Skin Soothing</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Google Reviews Hub -->
+  <section id="reviews" class="reviews-section padding-y">
+    <div class="container text-center scroll-reveal">
+      <span class="section-subtitle text-gold">TESTIMONIALS</span>
+      <h2 class="section-title">What Our Guests Say</h2>
+      <p class="section-desc max-w-600">Loved by 1900+ clients on Google reviews. Experience Raipur's top rated hospitality and pampering.</p>
+    </div>
+
+    <!-- Reviews Grid -->
+    <div class="container grid-3 reviews-grid scroll-reveal">
+      
+      <!-- Review 1 -->
+      <div class="review-card glass-card">
+        <div class="review-header">
+          <div class="review-user-info">
+            <span class="user-avatar-placeholder">SK</span>
+            <div>
+              <h4>Shreya Kashyap</h4>
+              <span class="verified-tag"><i class="fa-solid fa-circle-check text-gold"></i> Local Guide</span>
+            </div>
+          </div>
+          <div class="google-logo-wrapper">
+            <i class="fa-brands fa-google google-icon"></i>
+          </div>
+        </div>
+        <div class="star-rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="review-text">"Got my bridal makeup done at Opera Prime. Priya did an absolutely outstanding job! The airbrush makeup was flawless and lasted for more than 10 hours. Best bridal makeup in Raipur hands down!"</p>
+        <span class="review-date">2 days ago</span>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review-card glass-card">
+        <div class="review-header">
+          <div class="review-user-info">
+            <span class="user-avatar-placeholder">AM</span>
+            <div>
+              <h4>Aditya Mishra</h4>
+              <span class="verified-tag"><i class="fa-solid fa-circle-check text-gold"></i> Verified Guest</span>
+            </div>
+          </div>
+          <div class="google-logo-wrapper">
+            <i class="fa-brands fa-google google-icon"></i>
+          </div>
+        </div>
+        <div class="star-rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="review-text">"Amazing haircut. Very professional staff. The stylist listened to my request patiently and gave me exactly the look I wanted. Extremely hygienic and luxurious environment. Will definitely visit again!"</p>
+        <span class="review-date">1 week ago</span>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="review-card glass-card">
+        <div class="review-header">
+          <div class="review-user-info">
+            <span class="user-avatar-placeholder">RD</span>
+            <div>
+              <h4>Ritu Dewangan</h4>
+              <span class="verified-tag"><i class="fa-solid fa-circle-check text-gold"></i> Local Guide</span>
+            </div>
+          </div>
+          <div class="google-logo-wrapper">
+            <i class="fa-brands fa-google google-icon"></i>
+          </div>
+        </div>
+        <div class="star-rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="review-text">"Been their client since 2018. Their Kérastase hair spa and gold glow facials are pure bliss. The staff members are super polite and trained. Raipur's ultimate premium salon choice."</p>
+        <span class="review-date">3 weeks ago</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. Meet Our Experts (Simplified) -->
+  <section class="team-section padding-y">
+    <div class="container text-center scroll-reveal">
+      <span class="section-subtitle text-gold">MEET THE ARTISTS</span>
+      <h2 class="section-title">Meet Our Master Experts</h2>
+      <p class="section-desc max-w-600">Our senior artists carry specialized certifications from international academies, bringing high-fashion styling right here to Raipur.</p>
+    </div>
+
+    <div class="container grid-3 team-grid scroll-reveal">
+      
+      <!-- Expert 1 -->
+      <div class="team-card glass-card">
+        <div class="team-img-wrapper">
+          <img src="images/expert1.png" alt="Ananya Sharma - Senior Stylist" loading="lazy">
+        </div>
+        <div class="team-info">
+          <h3>Ananya Sharma</h3>
+          <span class="team-title text-gold">Senior Hair Stylist</span>
+          <p class="team-bio">12+ years experience in creative cuts, balayage highlights, and Kérastase hair treatments.</p>
+        </div>
+      </div>
+
+      <!-- Expert 2 -->
+      <div class="team-card glass-card">
+        <div class="team-img-wrapper">
+          <img src="images/expert2.png" alt="Priya Sen - Master Makeup Artist" loading="lazy">
+        </div>
+        <div class="team-info">
+          <h3>Priya Sen</h3>
+          <span class="team-title text-gold">Master Makeup Artist</span>
+          <p class="team-bio">Renowned bridal specialist trained in HD and Airbrush makeup, styling over 500+ Raipur brides.</p>
+        </div>
+      </div>
+
+      <!-- Expert 3 -->
+      <div class="team-card glass-card">
+        <div class="team-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=600" alt="Dr. Rohan Verma - Skincare Consultant" loading="lazy">
+        </div>
+        <div class="team-info">
+          <h3>Dr. Rohan Verma</h3>
+          <span class="team-title text-gold">Skin Care Specialist</span>
+          <p class="team-bio">Expert in advanced skin hydration therapies, anti-aging microdermabrasion and organic treatments.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 10. Contact Section -->
+  <section id="contact" class="contact-section padding-y">
+    <div class="container grid-2">
+      
+      <!-- Contact Info & Map -->
+      <div class="contact-info-panel scroll-reveal">
+        <span class="section-subtitle text-gold">VISIT US</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-description">We are centrally located in Raipur. Pop in for a walk-in consultation or lock in your slots in advance.</p>
+        
+        <div class="info-list">
+          <div class="info-item">
+            <i class="fa-solid fa-map-location-dot info-icon text-gold"></i>
+            <div>
+              <h5>Address</h5>
+              <p>Raj Bhawan rd Chowk, Moti Bagh, Civil Lines, Raipur, Chhattisgarh 492001</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone-volume info-icon text-gold"></i>
+            <div>
+              <h5>Call Us</h5>
+              <p><a href="tel:+919827881280">098278 81280</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-clock info-icon text-gold"></i>
+            <div>
+              <h5>Business Hours</h5>
+              <p>Open daily: 10:00 AM – 8:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Map Embedded -->
+        <div class="map-wrapper glass-card">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.5996025251833!2d81.63674147604473!3d21.246435280458117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd41e8f237ef%3A0xe54e6005cbb6cbb7!2sOpera%20Prime%20Salon!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            class="embedded-google-map">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Contact Booking & Message Form -->
+      <div class="contact-form-panel glass-card scroll-reveal">
+        <h3>Connect With Us</h3>
+        <p>Send a direct enquiry or request a callback.</p>
+        
+        <form id="salonContactForm" class="salon-form">
+          <div class="form-group">
+            <label for="formName">Full Name</label>
+            <input type="text" id="formName" name="name" required placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="formPhone">Phone Number</label>
+            <input type="tel" id="formPhone" name="phone" required placeholder="Enter 10-digit mobile number">
+          </div>
+          <div class="form-group">
+            <label for="formServiceInterest">Service Group Interest</label>
+            <select id="formServiceInterest" name="service">
+              <option value="General Query">General Query</option>
+              <option value="Bridal Makeover">Bridal Makeover Package</option>
+              <option value="Hair Coloring / Spa">Hair Spa or Coloring</option>
+              <option value="Skin facial treatment">Facial & Skincare</option>
+              <option value="Manicure / Pedicure">Manicure & Pedicure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="formMessage">Message Details</label>
+            <textarea id="formMessage" name="message" rows="4" placeholder="Enter special requirements or date options"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Enquiry</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 11. Footer -->
+  <footer class="main-footer">
+    <div class="container grid-4 footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo-brand">
+          <span class="logo-title text-gold">OPERA PRIME</span>
+          <span class="logo-subtitle">S A L O N</span>
+        </a>
+        <p class="footer-desc">Raipur's premier destination for high-end beauty, hair spa, and bridal styling since 1984.</p>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://wa.me/919827881280" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#services" onclick="filterServiceCategory('hair')">Hair Cut & Styling</a></li>
+          <li><a href="#services" onclick="filterServiceCategory('hair')">Pro-Keratin Infusion</a></li>
+          <li><a href="#services" onclick="filterServiceCategory('skin')">Luxury Gold Facial</a></li>
+          <li><a href="#bridal">Bridal HD Makeup</a></li>
+          <li><a href="#services" onclick="filterServiceCategory('nails')">Manicure & Pedicure</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Legacy</a></li>
+          <li><a href="#gallery">Before & After</a></li>
+          <li><a href="#gallery">Work Gallery</a></li>
+          <li><a href="#reviews">Guest Reviews</a></li>
+          <li><a href="#contact">Location Map</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Direct Contact</h4>
+        <ul class="footer-contact-info">
+          <li><i class="fa-solid fa-location-dot text-gold"></i> Moti Bagh Chowk, Raipur</li>
+          <li><i class="fa-solid fa-phone text-gold"></i> <a href="tel:+919827881280">098278 81280</a></li>
+          <li><i class="fa-solid fa-envelope text-gold"></i> booking@operaprimesalon.in</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom text-center">
+      <p>&copy; 2026 Opera Prime Salon. All Rights Reserved. Crafted for luxury beauty in Raipur.</p>
+    </div>
+  </footer>
+
+  <!-- Floating Desktop WhatsApp Button -->
+  <a href="https://wa.me/919827881280?text=Hi%20Opera%20Prime%20Salon,%20I'd%20like%20to%20book%20an%20appointment." target="_blank" class="floating-whatsapp-btn" id="desktopWhatsapp" aria-label="Book on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-btn-text">Book on WhatsApp</span>
+  </a>
+
+  <!-- Sticky Mobile CTA Footer Bar -->
+  <div class="sticky-mobile-cta" id="mobileCtaBar">
+    <a href="tel:+919827881280" class="mobile-cta-item cta-call">
+      <i class="fa-solid fa-phone"></i>
+      <span>Call Now</span>
+    </a>
+    <a href="https://wa.me/919827881280?text=Hi%20Opera%20Prime%20Salon,%20I'd%20like%20to%20book%20an%20appointment." target="_blank" class="mobile-cta-item cta-whatsapp">
+      <i class="fab fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+    <button onclick="openBookingModal()" class="mobile-cta-item cta-book">
+      <i class="fa-regular fa-calendar-check"></i>
+      <span>Book Appt</span>
+    </button>
+  </div>
+
+  <!-- Interactive Booking Modal Wizard -->
+  <div class="booking-modal-overlay" id="bookingModal">
+    <div class="booking-modal-card glass-card">
+      <button class="close-modal-btn" onclick="closeBookingModal()">&times;</button>
+      
+      <div class="modal-steps-indicator">
+        <div class="step-indicator-item active" id="indicatorStep1">1. Service</div>
+        <div class="step-indicator-item" id="indicatorStep2">2. Date/Time</div>
+        <div class="step-indicator-item" id="indicatorStep3">3. Contact</div>
+      </div>
+
+      <div class="booking-wizard-content">
+        
+        <!-- Step 1: Select Service -->
+        <div class="wizard-step active" id="bookingStep1">
+          <h3>Select Service of Interest</h3>
+          <p class="step-subtitle">What would you like to schedule today?</p>
+          
+          <div class="form-group">
+            <label for="bookingServiceSelect">Service Category</label>
+            <select id="bookingServiceSelect" class="form-input">
+              <option value="Signature Hair Cut">Signature Hair Cut — ₹499+</option>
+              <option value="Restorative Hair Spa">Restorative Hair Spa — ₹999+</option>
+              <option value="Premium Hair Coloring">Premium Hair Coloring — ₹2,499+</option>
+              <option value="Pro-Keratin Infusion">Pro-Keratin Infusion — ₹3,499+</option>
+              <option value="Luxury Gold Glow Facial">Luxury Gold Glow Facial — ₹799+</option>
+              <option value="Detox Skin Cleanup">Detox Skin Cleanup — ₹599+</option>
+              <option value="Glam Party Makeup">Glam Party Makeup — ₹3,999+</option>
+              <option value="SpaSational Manicure">SpaSational Manicure — ₹999+</option>
+              <option value="Paraffin Pedicure">Paraffin Pedicure — ₹1,199+</option>
+              <option value="Signature Bridal Makeup">Signature Bridal Makeup — ₹14,999+</option>
+              <option value="Pre-Bridal Luxury Package">Pre-Bridal Luxury Package — ₹9,999+</option>
+              <option value="Luxury Groom Package">Luxury Groom Package — ₹5,999+</option>
+              <option value="Engagement & Reception Makeup">Engagement & Reception Makeup — ₹7,999+</option>
+            </select>
+          </div>
+
+          <div class="wizard-action-row">
+            <button class="btn btn-primary" onclick="nextWizardStep(2)">Next Step <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- Step 2: Date & Time -->
+        <div class="wizard-step" id="bookingStep2">
+          <h3>Select Preferred Date & Time</h3>
+          <p class="step-subtitle">Our team will coordinate the final slot.</p>
+          
+          <div class="grid-2">
+            <div class="form-group">
+              <label for="bookingDate">Preferred Date</label>
+              <input type="date" id="bookingDate" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label for="bookingTime">Preferred Time</label>
+              <select id="bookingTime" class="form-input">
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="11:30 AM">11:30 AM</option>
+                <option value="01:00 PM">01:00 PM</option>
+                <option value="02:30 PM">02:30 PM</option>
+                <option value="04:00 PM">04:00 PM</option>
+                <option value="05:30 PM">05:30 PM</option>
+                <option value="07:00 PM">07:00 PM</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="wizard-action-row">
+            <button class="btn btn-outline" onclick="prevWizardStep(1)"><i class="fa-solid fa-arrow-left"></i> Back</button>
+            <button class="btn btn-primary" onclick="nextWizardStep(3)">Next Step <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- Step 3: Contact Info & Method Choice -->
+        <div class="wizard-step" id="bookingStep3">
+          <h3>Enter Contact Details</h3>
+          <p class="step-subtitle">Choose how you'd like to finalize booking.</p>
+          
+          <div class="form-group">
+            <label for="bookingName">Your Name</label>
+            <input type="text" id="bookingName" class="form-input" placeholder="Enter your full name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="bookingPhone">Phone Number</label>
+            <input type="tel" id="bookingPhone" class="form-input" placeholder="Enter 10-digit number" required>
+          </div>
+
+          <div class="booking-method-choice">
+            <button class="btn btn-primary" onclick="submitBooking('whatsapp')">
+              <i class="fab fa-whatsapp"></i> Book via WhatsApp
+            </button>
+            <button class="btn btn-outline" onclick="submitBooking('form')">
+              <i class="fa-regular fa-envelope"></i> Request Call Back
+            </button>
+          </div>
+
+          <div class="wizard-action-row justify-start">
+            <button class="btn btn-outline" onclick="prevWizardStep(2)"><i class="fa-solid fa-arrow-left"></i> Back</button>
+          </div>
+        </div>
+
+        <!-- Step 4: Success Animation -->
+        <div class="wizard-step" id="bookingStep4">
+          <div class="success-icon-container">
+            <i class="fa-solid fa-circle-check text-gold success-icon-animate"></i>
+          </div>
+          <h3>Booking Request Submitted!</h3>
+          <p id="successMessageText">Thank you. We have received your booking request. Our team will verify availability and reach out to you shortly via phone call.</p>
+          <button class="btn btn-primary" onclick="closeBookingModal()">Done</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Wrapper -->
+  <div class="toast-notification" id="toastAlert">
+    <i class="fa-solid fa-circle-info toast-icon"></i>
+    <span class="toast-message" id="toastMessage">Custom Notification!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
