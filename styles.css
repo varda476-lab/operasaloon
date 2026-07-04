@@ -1909,91 +1909,307 @@ body:hover .cursor-glow {
 
 /* Media: Small Tablets & Mobiles (768px) */
 @media (max-width: 768px) {
+
+  /* ── Base Layout ── */
+  .container {
+    padding: 0 18px;
+  }
   .padding-y {
-    padding: 60px 0;
+    padding: 56px 0;
   }
-  .grid-2 {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-  .grid-3 {
-    grid-template-columns: 1fr;
-  }
+  .grid-2,
+  .grid-3,
   .grid-4 {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .section-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .section-subtitle {
+    font-size: 0.95rem;
+    text-align: center;
   }
 
-  /* Hero adjustments */
-  .hero-section {
-    padding-top: 100px;
-    height: auto;
-    min-height: auto;
+  /* ── Navbar ── */
+  .navbar-container {
+    padding: 14px 18px;
   }
-  
+  .logo-title {
+    font-size: 1.25rem;
+  }
+  .logo-subtitle {
+    font-size: 0.48rem;
+    letter-spacing: 4px;
+  }
+
+  /* ── Hero ── */
+  .hero-section {
+    height: auto;
+    min-height: 100svh;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    background-attachment: scroll; /* fixed causes jank on mobile */
+  }
+  .hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(7,7,9,0.88) 0%,
+      rgba(7,7,9,0.70) 60%,
+      rgba(7,7,9,0.92) 100%
+    );
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .hero-tagline {
+    font-size: 0.72rem;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+  }
   .hero-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 16px;
   }
   .hero-desc {
+    font-size: 0.95rem;
+    max-width: 100%;
+    margin-bottom: 28px;
+  }
+  .hero-ctas {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 36px;
+  }
+  .hero-ctas .btn {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+  }
+  .hero-counters {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    padding: 18px 12px;
+    max-width: 100%;
+    border-radius: 14px;
+  }
+  .counter-item {
+    flex: 0 0 33.33%;
+    align-items: center;
+    text-align: center;
+    padding: 8px 4px;
+    border-right: 1px solid var(--gold-border);
+  }
+  .counter-item:last-child {
+    border-right: none;
+  }
+  .counter-icon {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+  .counter-val {
+    font-size: 1.5rem;
+  }
+  .counter-lbl {
+    font-size: 0.65rem;
+    letter-spacing: 0.5px;
+  }
+
+  /* ── About ── */
+  .about-image-container {
+    margin-bottom: 12px;
+  }
+  .about-img {
+    height: 280px;
+    border-radius: 12px;
+  }
+  .gold-box-border {
+    display: none;
+  }
+  .about-experience-badge {
+    right: 10px;
+    bottom: -12px;
+    padding: 10px 16px;
+  }
+  .badge-num {
+    font-size: 1.5rem;
+  }
+  .badge-text {
+    font-size: 0.65rem;
+  }
+  .about-paragraph {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  .about-highlights {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .highlight-item {
+    text-align: center;
+    padding: 14px 10px;
+  }
+
+  /* ── Services ── */
+  .service-filter-bar {
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  .filter-btn {
+    font-size: 0.72rem;
+    padding: 7px 14px;
+  }
+  .service-card {
+    border-radius: 12px;
+  }
+  .service-img-wrapper {
+    height: 180px;
+  }
+  .service-info {
+    padding: 16px;
+  }
+  .service-name {
     font-size: 1rem;
   }
-  
-  .hero-counters {
-    flex-direction: column;
-    gap: 25px;
-    padding: 20px;
-    max-width: 100%;
+
+  /* ── Pricing Search ── */
+  .pricing-search-wrap {
+    padding: 0 0 10px;
   }
-  
-  .counter-item {
-    text-align: center;
-    align-items: center;
+  .pricing-search-input {
+    font-size: 0.9rem;
   }
 
-  /* About Badges */
-  .about-experience-badge {
-    right: 20px;
-    bottom: -15px;
-    padding: 10px 18px;
+  /* ── Before / After Slider ── */
+  .before-after-container {
+    height: 260px;
+    border-radius: 12px;
   }
-  .badge-num { font-size: 1.8rem; }
-  .gold-box-border { display: none; }
-  
-  /* Gallery */
+
+  /* ── Gallery ── */
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .gallery-item {
+    border-radius: 10px;
   }
 
-  /* Booking modal adjustments */
+  /* ── Bridal Packages ── */
+  .bridal-card {
+    border-radius: 14px;
+  }
+  .bridal-img-wrapper {
+    height: 200px;
+  }
+  .bridal-info {
+    padding: 18px 16px;
+  }
+  .bridal-title {
+    font-size: 1.05rem;
+  }
+  .bridal-price-row {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* ── Instagram Section ── */
+  .insta-tabs {
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .insta-tab {
+    font-size: 0.75rem;
+    padding: 7px 14px;
+  }
+  .insta-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .insta-item {
+    border-radius: 10px;
+  }
+  .insta-item-inner {
+    height: 160px;
+  }
+
+  /* ── Reviews ── */
+  .review-card {
+    padding: 20px 18px;
+  }
+  .review-text {
+    font-size: 0.9rem;
+  }
+
+  /* ── Team ── */
+  .team-card {
+    padding: 20px 16px;
+    text-align: center;
+  }
+  .team-avatar {
+    margin: 0 auto 14px;
+  }
+
+  /* ── Contact / Map ── */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .contact-info-item {
+    font-size: 0.9rem;
+  }
+  .map-embed {
+    height: 250px;
+    border-radius: 12px;
+  }
+
+  /* ── Booking Modal ── */
   .booking-modal-card {
-    padding: 30px 20px;
+    padding: 26px 18px;
+    margin: 12px;
+    border-radius: 16px;
   }
   .booking-method-choice {
     grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .booking-step-indicators {
+    gap: 6px;
+  }
+  .step-dot {
+    width: 28px;
+    height: 28px;
+    font-size: 0.7rem;
   }
 
-  /* Hide Desktop WhatsApp button on mobile to prevent clutter */
+  /* ── Floating WhatsApp ── */
   .floating-whatsapp-btn {
     display: none;
   }
-  
-  /* Show Mobile Sticky Bottom CTA */
+
+  /* ── Sticky Mobile CTA ── */
   body {
-    padding-bottom: 75px; /* Compends bottom bar spacing */
+    padding-bottom: 70px;
   }
-  
   .sticky-mobile-cta {
     display: flex;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 70px;
+    height: 66px;
     background: var(--bg-panel);
     border-top: 1.5px solid var(--gold-border);
     z-index: 995;
-    box-shadow: 0 -5px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.5);
   }
-  
   .mobile-cta-item {
     flex: 1;
     display: flex;
@@ -2002,7 +2218,7 @@ body:hover .cursor-glow {
     justify-content: center;
     color: var(--text-secondary);
     text-decoration: none;
-    font-size: 0.75rem;
+    font-size: 0.68rem;
     font-weight: 600;
     gap: 4px;
     transition: var(--transition-smooth);
@@ -2010,33 +2226,64 @@ body:hover .cursor-glow {
     background: transparent;
     cursor: pointer;
     font-family: var(--font-body);
+    letter-spacing: 0.3px;
   }
-  
   .mobile-cta-item i {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
-  
   .mobile-cta-item:active {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255,255,255,0.05);
   }
-  
   .cta-call {
-    border-right: 1px solid rgba(255,255,255, 0.05);
+    border-right: 1px solid rgba(255,255,255,0.06);
   }
   .cta-whatsapp {
     color: var(--whatsapp-color);
-    border-right: 1px solid rgba(255,255,255, 0.05);
+    border-right: 1px solid rgba(255,255,255,0.06);
   }
   .cta-book {
     background: linear-gradient(135deg, var(--gold-primary), var(--gold-dark));
     color: #000;
+    font-weight: 700;
+  }
+
+  /* ── Toast Notification ── */
+  .toast-notification {
+    width: calc(100% - 36px);
+    border-radius: 12px;
   }
 }
 
-/* Media: Small Mobiles (480px) */
+/* Media: Small Phones (480px) */
 @media (max-width: 480px) {
-  .section-title { font-size: 2rem; }
+  .hero-title {
+    font-size: 1.75rem;
+  }
+  .section-title {
+    font-size: 1.75rem;
+  }
+  .hero-counters {
+    padding: 14px 8px;
+  }
+  .counter-val {
+    font-size: 1.3rem;
+  }
+  .counter-lbl {
+    font-size: 0.6rem;
+  }
   .gallery-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+  .insta-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+  .insta-item-inner {
+    height: 140px;
+  }
+  .bridal-img-wrapper {
+    height: 180px;
   }
 }
+
